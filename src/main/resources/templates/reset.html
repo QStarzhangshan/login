@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>忘记密码</title>
+</head>
+<body>
+<div class="web_login">
+    <form name="form2" id="resetUser" accept-charset="utf-8"  action="/sendEmail" method="post">
+        <ul class="reg_form" id="reg-ul">
+            <li>
+                <label for="user_work_number"  class="input-tips2">工号：</label>
+                <div class="inputOuter2">
+                    <input type="text" id="user_work_number" name="user_work_number" maxlength="16" class="inputstyle2"/>
+                </div>
+            </li>
+            <li>
+                <label for="user_email"  class="input-tips2">邮箱：</label>
+                <div class="inputOuter2">
+                    <input type="email" id="user_email" name="user_email" maxlength="16" class="inputstyle2"/>
+                </div>
+            </li>
+            <li>
+                <div class="inputArea">
+                    <input type="submit" id="reg" style="margin-top:10px;margin-left:85px;" class="button_blue" value="找回密码"/>
+                </div>
+            </li><div class="cl"></div>
+        </ul>
+    </form>
+</div>
+</body>
+</html>
